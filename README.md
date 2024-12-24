@@ -39,4 +39,4 @@ Seaborn - version 0.13.2
 UpGrad tutorials on Exploratory Data Analysis (EDA) on the learning platform
 
 ## Contact
-Created by hemantharya739(https://github.com/hemantharya739) - feel free to contact me!
+Created by [hemantharya739](https://github.com/hemantharya739) - feel free to contact me!
