@@ -1,52 +1,42 @@
-# Project Name
-> Outline a brief description of your project.
+# LENDING CLUB CASE STUDY
 
+Lending Club, a consumer finance marketplace serving urban customers, faces a critical challenge in optimizing its loan approval process. The goal is to minimize credit losses, which occur when borrowers default on their loans—especially those labeled as "charged-off," causing the most significant financial impact.
+The challenge lies in balancing two key risks:
+1. Missed Opportunities: Rejecting applicants likely to repay results in lost business and potential revenue.
+2. Financial Losses: Approving high-risk applicants leads to substantial defaults and monetary loss.
 
 ## Table of Contents
-* [General Info](#general-information)
+* [General Information](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The goal is to identify applicants at risk of loan default, thereby reducing credit losses. This case study seeks to achieve this through exploratory data analysis (EDA) of the provided dataset.
+The company aims to uncover the key factors, or driver variables, that strongly indicate loan default. Understanding these factors will enable the company to improve its portfolio management and risk assessment strategies.
+The primary objective of this analysis is to support Lending Club in minimizing credit losses
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+This challenge stems from two critical scenarios:
+1. Identifying applicants likely to repay their loans is essential, as they contribute to the company's profits through interest payments. Rejecting such applicants could result in missed business opportunities.
+2. Conversely, approving loans for applicants at high risk of default could lead to significant financial losses.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- **Python** - version 3.10.5
+- **Matplotlib** - version 3.9.2
+- **Numpy** - version 1.23.5
+- **Pandas** - version 1.5.3
+- **Seaborn** - version 0.13.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Conclusions
+* **Term Length**: Limit 60-month loans or adjust interest rates for longer terms.
+* **Experience and Default Probability**: Develop a holistic credit scoring model beyond experience alone.
+* **Positive Growth Trend**: Leverage market growth while maintaining robust risk management.
+* **Debt Consolidation Risk**: Enhance screening and offer financial counseling for debt consolidation loans.
+* **Housing Status and Default Risk**: Incorporate housing stability into risk assessments and loan terms.
+* **Verification Process**: Review and refine the verification process to improve accuracy.
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+UpGrad tutorials on Exploratory Data Analysis (EDA) on the learning platform
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [hemantharya739](https://github.com/hemantharya739) - feel free to contact me!
