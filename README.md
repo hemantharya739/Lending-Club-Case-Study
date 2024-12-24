@@ -6,7 +6,7 @@ The challenge lies in balancing two key risks:
 2. Financial Losses: Approving high-risk applicants leads to substantial defaults and monetary loss.
 
 ## Table of Contents
-* [General Info](#general-information)
+* [General Information](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
@@ -20,6 +20,13 @@ This challenge stems from two critical scenarios:
 1. Identifying applicants likely to repay their loans is essential, as they contribute to the company's profits through interest payments. Rejecting such applicants could result in missed business opportunities.
 2. Conversely, approving loans for applicants at high risk of default could lead to significant financial losses.
 
+## Technologies Used
+- **Python** - version 3.10.5
+- **Matplotlib** - version 3.9.2
+- **Numpy** - version 1.23.5
+- **Pandas** - version 1.5.3
+- **Seaborn** - version 0.13.2
+
 ## Conclusions
 * **Term Length**: Limit 60-month loans or adjust interest rates for longer terms.
 * **Experience and Default Probability**: Develop a holistic credit scoring model beyond experience alone.
@@ -27,13 +34,6 @@ This challenge stems from two critical scenarios:
 * **Debt Consolidation Risk**: Enhance screening and offer financial counseling for debt consolidation loans.
 * **Housing Status and Default Risk**: Incorporate housing stability into risk assessments and loan terms.
 * **Verification Process**: Review and refine the verification process to improve accuracy.
-
-## Technologies Used
-Python - version 3.10.5
-Matplotlib - version 3.9.2
-Numpy - version 1.23.5
-Pandas - version 1.5.3
-Seaborn - version 0.13.2
 
 ## Acknowledgements
 UpGrad tutorials on Exploratory Data Analysis (EDA) on the learning platform
